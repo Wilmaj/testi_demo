@@ -37,9 +37,9 @@ nav#main-nav {
     nav#main-nav a:hover {
       color: #ccc; }
 
-.section, #section-a, #section-b {
+.section, #section-a, #section-b, #section-c {
   padding: 20px; }
-  .section h1, #section-a h1, #section-b h1 {
+  .section h1, #section-a h1, #section-b h1, #section-c h1 {
     margin-bottom: 30px; }
 
 #section-a {
@@ -50,7 +50,11 @@ nav#main-nav {
   background-color: #333;
   color: #fff; }
 
-.button, .button-a, .button-b {
+#section-c {
+  background-color: orange;
+  color: #fff; }
+
+.button, .button-a, .button-b, .button-c {
   padding: 10px 15px; }
 
 .button-a {
@@ -59,4 +63,8 @@ nav#main-nav {
 
 .button-b {
   background: #1a1a1a;
+  color: #fff; }
+
+.button-c {
+  background: #3333ff;
   color: #fff; }

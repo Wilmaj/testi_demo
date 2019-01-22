@@ -70,6 +70,12 @@ nav#main-nav {
   color: set-text-color($dark-color);
 }
 
+#section-c {
+  @extend .section;
+  background-color: $new-color;
+  color: set-text-color($new-color);
+}
+
 .button {
   padding: 10px 15px;
 }
@@ -84,4 +90,10 @@ nav#main-nav {
   @extend .button;
   background: lighten($secondary-color, 10%);
   color: set-text-color($secondary-color);
+}
+
+.button-c {
+  @extend .button;
+  background: lighten($button-color, 10%);
+  color: set-text-color($button-color);
 }
